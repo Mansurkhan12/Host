@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #2C3E50;
+    color: white;
+    border-bottom: 4px solid #34495E;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid white;
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 22px;
+    font-style: italic;
+    color: #BDC3C7;
+}
+
+/* About Section */
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: #333;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: center;
+    color: #555;
+    margin-top: 20px;
+}
+
+/* Resume Section */
+.resume-link {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #2C3E50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.resume-link:hover {
+    background-color: #34495E;
+    transform: translateY(-3px);
+}
+
+/* Social Media Section */
+.socials {
+    background-color: #ECF0F1;
+    padding: 50px 0;
+}
+
+.socials h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.social-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.social-links li {
+    transition: transform 0.3s ease;
+}
+
+.social-links li:hover {
+    transform: translateY(-5px);
+}
+
+.social-logo {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.social-logo:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
